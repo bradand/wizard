@@ -15,6 +15,8 @@ clean project folder, remove containers, clean slate *deletes everything inside 
 ```
 ./wizard.sh --projname=myproject --reposrc=git@github.com:laravel/laravel.git --dbhandle=mydbname --clean
 ```
+## File Structure
+Wizard will clone the specificed repo into root/myproject and apply a series of helper actions to get it up and running (see wizard.sh). You can move the project files somewhere else or edit them in place. Hack the planet!
 ## Laravel
 Initial commands in new terminal after wizard completes (build, up, logging)
 ```

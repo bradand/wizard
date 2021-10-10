@@ -32,13 +32,6 @@ echo "REPOSRC   = ${REPOSRC}"
 echo "DBHANDLE  = ${DBHANDLE}"
 echo "DEBUG     = ${DEBUG}"
 echo "CLEAN     = ${CLEAN}"
-#echo "Number files in SEARCH PATH with EXTENSION:" $(ls -1 "${SEARCHPATH}"/*."${EXTENSION}" | wc -l)
-# if [[ -n $1 ]]; then
-#     echo "Last line of file specified as non-opt/last argument:"
-#     tail -1 $1
-#fi
-
-
 
 if [ -z "$PROJNAME" ] || [ -z "$REPOSRC" ] || [ -z "$DBHANDLE" ]; then
   
@@ -95,9 +88,6 @@ else
 
     echo "rm .env.bak"
     rm .env.bak
-
-    # echo "echo 'UID=1000' >> .env"
-    # echo "UID=1000" >> .env
 
     echo "cp ../../wizard_Dockerfile ./Dockerfile"
     cp ../../wizard_Dockerfile ./Dockerfile

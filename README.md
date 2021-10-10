@@ -1,6 +1,6 @@
 # wizard
 Magic database-driven project starter, requires Docker, tested on Mac
-Configured stack: Linux (Docker) + Apache + Laravel (PHP) + MySQL
+Configured stack: Linux (Docker) + Apache + MySQL + Laravel (PHP)
 ## Usage
 ```
 git clone git@github.com:bradand/wizard.git
@@ -21,3 +21,4 @@ Initial commands in new terminal after wizard completes (build, up, logging)
 docker exec -it myproject bash -c "sudo -u devuser /bin/bash"
 ./laravel_init.sh
 ```
+Now you are free to work with your new project!

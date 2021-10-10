@@ -3,6 +3,7 @@ Magic database-driven project starter, requires Docker, tested on Mac
 Configured stack: Linux (Docker) + Apache + Laravel (PHP) + MySQL
 ## Usage
 ```
+git clone git@github.com:bradand/wizard.git
 ./wizard.sh --projname=myproject --reposrc=git@github.com:laravel/laravel.git --dbhandle=mydbname
 ```
 ## Repair
